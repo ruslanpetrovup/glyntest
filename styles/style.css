@@ -62,6 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: scroll;
   }
 
   .categories-list-mobile {
@@ -2347,7 +2348,7 @@
   }
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1299px) {
+@media screen and (min-width: 1080px) and (max-width: 1305px) {
   .header-block {
     display: flex;
     flex-direction: column;
@@ -3583,7 +3584,7 @@
 }
 
 /* Desk */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1305px) {
   .header-block {
     display: flex;
     flex-direction: column;
@@ -3783,6 +3784,7 @@
   }
   .logo-img {
     margin-right: 15px;
+    max-width: 100px;
   }
   .logo-title {
     font-family: "Proxima Nova";
@@ -3798,7 +3800,7 @@
   .orders {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
   }
   .basket {
     display: flex;
@@ -3832,7 +3834,7 @@
     line-height: 125%;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 14px 46px;
+    padding: 14px 25px;
     background: #44c697;
     border-radius: 3px;
     cursor: pointer;
