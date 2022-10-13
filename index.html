@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Furniture.test</title>
   </head>
-  <body>
+  <body id="start">
     <!-- Header -->
     <header class="header">
       <div class="container">
@@ -160,10 +160,80 @@
               </div>
             </div>
           </div>
+          <button class="mobile-menu">
+            <img class="mobile-menu-icon" src="./images/icons/menu.svg" />
+          </button>
+          <div class="backdrop">
+            <button class="backdrop-close">
+              <img class="backdrop-close-icon" src="./images/icons/close.svg" />
+            </button>
+
+            <div class="backdrop-block">
+              <ul class="menu-navigation">
+                <li class="menu-item">
+                  <a href="" class="menu-link active">Головна</a>
+                </li>
+                <li class="menu-item">
+                  <button class="menu-link" id="categories">
+                    категорії<svg class="categories-icon-mobile">
+                      <use href="./images/icons/sprite.svg#arrowDown"></use>
+                    </svg>
+                  </button>
+                  <ul class="categories-list-mobile">
+                    <li class="categories-item">
+                      <a href="" class="categories-link">Дивани </a>
+                    </li>
+                    <li class="categories-item">
+                      <a href="" class="categories-link">ліжка </a>
+                    </li>
+                    <li class="categories-item">
+                      <a href="" class="categories-link">Крісла </a>
+                    </li>
+                    <li class="categories-item">
+                      <a href="" class="categories-link">комоди </a>
+                    </li>
+                    <li class="categories-item">
+                      <a href="" class="categories-link">шафи </a>
+                    </li>
+                    <li class="categories-item">
+                      <a href="" class="categories-link">Кухня </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">АкцІї</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">Доставка та оплата</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">про нас</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">контакти</a>
+                </li>
+              </ul>
+              <div class="orders-mobile">
+                <div class="basket">
+                  <a class="basket-link">
+                    <svg class="basket-icon">
+                      <use
+                        href="./images/icons/sprite.svg#shopping-cart"
+                      ></use></svg
+                    >Кошик</a
+                  >
+                </div>
+                <div class="call">
+                  <button class="call-button">Замовити дзвінок</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
 
+    <!-- Main -->
     <main>
       <!-- Hero -->
       <section class="hero">
@@ -322,6 +392,9 @@
                   alt="product"
                   class="products-catalog-img"
                 />
+                <div class="products-catalog-additives">
+                  <p class="products-catalog-new">Новинка</p>
+                </div>
               </div>
               <div class="products-catalog-info">
                 <p class="products-catalog-name">Ліжко Рамона</p>
@@ -335,6 +408,10 @@
                   alt="product"
                   class="products-catalog-img"
                 />
+                <div class="products-catalog-additives">
+                  <p class="products-catalog-hit">ХІт продаж</p>
+                  <p class="products-catalog-discount">Акція</p>
+                </div>
               </div>
               <div class="products-catalog-info">
                 <p class="products-catalog-name">Ліжко Честер</p>
@@ -361,6 +438,9 @@
                   alt="product"
                   class="products-catalog-img"
                 />
+                <div class="products-catalog-additives">
+                  <p class="products-catalog-new">Новинка</p>
+                </div>
               </div>
               <div class="products-catalog-info">
                 <p class="products-catalog-name">Ліжко Імперія</p>
@@ -387,6 +467,10 @@
                   alt="product"
                   class="products-catalog-img"
                 />
+                <div class="products-catalog-additives">
+                  <p class="products-catalog-hit">ХІт продаж</p>
+                  <p class="products-catalog-discount">Акція</p>
+                </div>
               </div>
               <div class="products-catalog-info">
                 <p class="products-catalog-name">Ліжко Атлант</p>
@@ -493,6 +577,10 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-check">
+          <a class="footer-up" href="#start">
+            <svg class="footer-up-icon">
+              <use href="./images/icons/sprite.svg#ArrowUp"></use></svg
+          ></a>
           <div class="footer-block">
             <div class="footer-logo">
               <a href="" class="footer-logo-link">
@@ -624,5 +712,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/mobile.js" type="module"></script>
   </body>
 </html>
