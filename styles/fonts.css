@@ -3,10 +3,8 @@
 
 @font-face {
   font-family: "Proxima Nova";
-  /* src: url("../fonts/ProximaNovaCond-Regular.eot"); */
-  src: local("../fonts/Proxima Nova Condensed Regular"),
-    local("../fonts/ProximaNovaCond-Regular"),
-    url("../fonts/ProximaNovaCond-Regular.eot?#iefix")
+  src: url("../fonts/ProximaNovaCond-Regular.eot");
+  src: url("../fonts/ProximaNovaCond-Regular.eot?#iefix")
       format("embedded-opentype"),
     url("../fonts/ProximaNovaCond-Regular.woff") format("woff"),
     url("../fonts/ProximaNovaCond-Regular.ttf") format("truetype");
