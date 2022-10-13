@@ -20,7 +20,7 @@ button {
   text-decoration: none;
 }
 
-@import "../fonts/font.css";
+/* @import "../fonts/font.css"; */
 
 @media screen and (max-width: 700px) {
   .container {
