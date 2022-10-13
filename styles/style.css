@@ -3594,6 +3594,9 @@
   .mobile-menu {
     display: none;
   }
+  .mobile-menu-icon {
+    display: none;
+  }
   .navigation {
     display: flex;
     justify-content: space-between;
