@@ -2347,7 +2347,7 @@
   }
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1301px) {
+@media screen and (min-width: 1080px) and (max-width: 1299px) {
   .header-block {
     display: flex;
     flex-direction: column;
