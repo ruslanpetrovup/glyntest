@@ -20,7 +20,7 @@ button {
   text-decoration: none;
 }
 
-/* @import "../fonts/font.css"; */
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&display=swap");
 
 @media screen and (max-width: 700px) {
   .container {
